@@ -22,7 +22,7 @@ MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 ON_HEROKU = "DYNO" in environ
-URL = environ.get("URL", "https://asfile2linkbot.koyeb.app/")
+URL = environ.get("URL", "")
 
 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002521835919"))
