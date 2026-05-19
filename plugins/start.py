@@ -24,10 +24,6 @@ async def start_command(client, message):
                     InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/UHDBots"),
                     InlineKeyboardButton("💡 ᴄᴏᴅᴇs", url="https://github.com/UHD-Botz/UHD-FiletoLinks-Bot")
                 ],
-                [
-                    InlineKeyboardButton("📜 ᴜʜᴅ ɴᴇᴛᴡᴏʀᴋ", url="https://t.me/UHD_NETWORK"),
-                    InlineKeyboardButton("🌐 ᴀᴇ ᴇɴᴄᴏᴅᴇs", url="https://bit.ly/AEEncodes")
-                ]
             ]
         ),
         disable_web_page_preview=True,
