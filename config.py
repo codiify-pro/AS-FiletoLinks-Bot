@@ -14,7 +14,7 @@ id_pattern = re.compile(r'^-?\d+$')
 SESSION = environ.get("SESSION", "UHDFiletoLinksBot")
 API_ID = int(environ.get("API_ID", "32541562"))
 API_HASH = environ.get("API_HASH", "e37e4432298d5a5eb4a6e32c18804283")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8932447404:AAHyanPJNFCm1yK7pA6hch2lnvMichi3qMI")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8932447404:AAEnctZD5fzy90BDIVlqV1mmjXnyNb5qoxg")
 
 
 PORT = int(environ.get("PORT", "8080"))
